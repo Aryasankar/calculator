@@ -1,0 +1,86 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calcul.css">
+</head>
+<body>
+    
+        <!-- <h1>CALCULATOR</h1> -->
+
+        <div class="calculator">
+
+         
+                <form>
+                  
+                      
+                           <div class="sty">
+                               
+                                    <p>CASIO</p>
+                    
+                                    <input type="text" id="output" placeholder="0.">
+                    
+                              
+                                <br>
+                
+                                
+                                
+                                    <input onclick="clearAll()" id="clear" class="number c" type="button" value="C">
+                                     <input onclick="removeLast()" id="delete" class="number del" type="button" value="DEL">
+                                     <input onclick="display('/')" id="zero" class="number operator" type="button" value="/">
+                                    <input onclick="display('+/-')" id="equal" class="number operator" type="button" value="+/-">
+                    
+                                    <br>
+                    
+                                    <input onclick="display('7')" id="seven" class="number" type="button" value="7">
+                                    <input onclick="display('8')" id="eight" class="number" type="button" value="8">
+                                    <input onclick="display('9')" id="nine" class="number" type="button" value="9">
+                                    <input onclick="display('%')" id="divide" class="number operator" type="button" value="%">
+                    
+                                    <br>
+                    
+                                    <input onclick="display('4')" id="four" class="number" type="button" value="4">
+                                    <input onclick="display('5')" id="five" class="number" type="button" value="5">
+                                    <input onclick="display('6')" id="six" class="number" type="button" value="6">
+                                    <input onclick="display('*')" id="multiply" class="number operator" type="button" value="*">
+                    
+                                    <br>
+                    
+                                    <input onclick="display('1')" id="one" class="number" type="button" value="1">
+                                    <input onclick="display('2')" id="two" class="number" type="button" value="2">
+                                    <input onclick="display('3')" id="three" class="number" type="button" value="3">
+                                    <input onclick="display('-')" id="plus" class="number operator" type="button" value="-">
+                    
+                                    <br>
+                    
+                                    <input onclick="display('.')" id="minus" class="number operator" type="button" value=".">
+                                    <input onclick="display(0)" id="zero" class="number" type="button" value="0">
+                                    <input onclick="evaluateExp()" id="equal" class="number operator" type="button" value="=">
+                                    <input onclick="display('+')" id="minus" class="number operator" type="button" value="+">
+                    
+                                    <br>
+                    
+                            
+                                
+                                  
+                
+                
+                
+                
+            
+                        </form>
+               
+                   </div>
+                  
+        </div>
+
+</body>
+
+<script src="./calcu.js">
+
+</script>
+</html>
